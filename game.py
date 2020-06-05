@@ -9,7 +9,7 @@ user_choice = input("Type in your choice:")
 options = ["rock", "paper", "scissors"]
 robot_choice = random.choice(options)
 
-# results for rock
+# user results
 if user_choice == "rock" and robot_choice == "scissors":
     print("robot choice is:")
     print(robot_choice)
@@ -29,5 +29,3 @@ else:
     print("robot choice is:")
     print(robot_choice)
     print("You lose :(")
-
-# logic of the game
