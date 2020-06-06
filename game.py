@@ -3,7 +3,7 @@ import random
 
 # start the game
 print("Welcome to Rock, Paper, Scissors!")
-user_choice = input("Type in your choice:")
+user_choice = input("Type in your choice: ")
 
 # options for the game
 options = ["rock", "paper", "scissors"]
