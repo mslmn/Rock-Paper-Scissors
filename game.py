@@ -23,6 +23,7 @@ elif user_choice == "scissors" and robot_choice == "paper":
     print(robot_choice)
     print("You win!")
 elif user_choice == robot_choice:
+    print("robot choice is:")
     print(robot_choice)
     print("draw")
 else:
